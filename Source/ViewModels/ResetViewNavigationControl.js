@@ -32,7 +32,7 @@ define([
          * This property is observable.
          * @type {String}
          */
-        this.name = 'Reset View';
+        this.name = '重置视图';
 
         /**
          * Gets or sets the svg icon of the control.  This property is observable.

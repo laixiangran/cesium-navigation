@@ -35,7 +35,7 @@ define([
          * This property is observable.
          * @type {String}
          */
-        this.name = 'Zoom ' + (zoomIn ? 'In' : 'Out');
+        this.name = zoomIn ? '放大' : '缩小';
 
         /**
          * Gets or sets the text to be displayed in the nav control. Controls that
